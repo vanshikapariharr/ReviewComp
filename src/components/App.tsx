@@ -1,5 +1,5 @@
 import { useFeedbackItemsStore } from "../stores/feedbackItemsStore";
-import  { useEffect } from "react";
+import { useEffect } from "react";
 import HashtagList from "./hashtag/HashtagList";
 import Container from "./layout/Container";
 
@@ -10,13 +10,10 @@ function App() {
 
   useEffect(() => {
     fetchFeedbackItems();
-  }, [fetchFeedbackItems]);
-
+  }, []); 
   return (
     <div className="app">
-   
       <Container />
-
       <HashtagList />
     </div>
   );

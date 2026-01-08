@@ -1,7 +1,7 @@
-import FeedbackItem from "./FeedbackItem";
 import Spinner from "../Spinner";
 import ErrorMessage from "../ErrorMessage";
 import { useFeedbackItemsStore } from "../../stores/feedbackItemsStore";
+import FeedbackItem from "./feebackItem";
 
 export default function FeedbackList() {
   const isLoading = useFeedbackItemsStore((state) => state.isLoading);
