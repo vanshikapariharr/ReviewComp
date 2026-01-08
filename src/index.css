@@ -196,7 +196,7 @@ h1 *::selection {
 
 textarea {
   width: 100%;
-  height: 85px;
+  height: 100px;
   background-color: black;
   color: rgba(248, 245, 245, 0.8);
   font-size: 14px;
@@ -259,7 +259,7 @@ form div:last-child p {
 form div:last-child p::selection,
 form div:last-child p > *::selection {
   color: rgba(255, 255, 255, 0.85);
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(212, 192, 192, 0.05);
 }
 
 /* SUBMIT BTN */
@@ -380,7 +380,7 @@ form button span::selection {
   height: 49px;
   width: 49px;
   border-radius: 6px;
-  background-color: #564989;
+   background-color: #385632;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -390,23 +390,23 @@ form button span::selection {
 }
 
 .feedback:nth-child(6n + 2) > div:nth-child(2) {
-  background-color: #6d4989;
+  background-color: #385632;
 }
 
 .feedback:nth-child(6n + 3) > div:nth-child(2) {
-  background-color: #3c7789;
+  background-color: #385632;
 }
 
 .feedback:nth-child(6n + 4) > div:nth-child(2) {
-  background-color: #897749;
+   background-color: #385632;
 }
 
 .feedback:nth-child(6n + 5) > div:nth-child(2) {
-  background-color: #4a8b6b;
+   background-color: #385632;
 }
 
 .feedback:nth-child(6n + 6) > div:nth-child(2) {
-  background-color: #495789;
+   background-color: #385632;
 }
 
 .feedback > div:nth-child(2) > p {
@@ -470,7 +470,7 @@ form button span::selection {
 
 .feedback > button:hover svg,
 .feedback > button:hover span {
-  color: #784a86;
+  color: #4a6d86;
 }
 
 .feedback > button:disabled svg {
