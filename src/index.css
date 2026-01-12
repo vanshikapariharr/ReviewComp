@@ -406,7 +406,7 @@ form button span::selection {
 }
 
 .feedback:nth-child(6n + 6) > div:nth-child(2) {
-   background-color: #385632;
+  background-color: #113c26;
 }
 
 .feedback > div:nth-child(2) > p {

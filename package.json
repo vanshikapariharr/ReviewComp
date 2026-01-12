@@ -3,7 +3,7 @@
   "name": "reviewcomp",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/vanshikapariharr/ReviewComp",
+  "homepage": "https://vanshikapariharr.github.io/ReviewComp",
   "type": "module",
   "scripts": {
     "dev": "vite",
